@@ -1,0 +1,23 @@
+﻿<Window x:Class="_1612018_CS_MiniGame.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1612018_CS_MiniGame"
+        mc:Ignorable="d"
+        Title="1612018_MiniGame" Height="500" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF18935B" Offset="0.152"/>
+            <GradientStop Color="#FFF7F3F3" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid x:Name="No_Name_">
+        <Button x:Name="answer1Button" Content="Button" HorizontalAlignment="Left" Margin="512,183,0,0" VerticalAlignment="Top" Width="190" Height="70" FontFamily="Times New Roman" FontSize="22" Click="btnAns1" Cursor="Arrow"/>
+        <Button x:Name="answer2Button" Content="Button" HorizontalAlignment="Left" Margin="512,276,0,0" VerticalAlignment="Top" Width="190" Height="70" FontFamily="Times New Roman" FontSize="22" Click="btnAns2" Cursor="Arrow"/>
+        <Button x:Name="nextButton" Content="NEXT" HorizontalAlignment="Left" Margin="561,383,0,0" VerticalAlignment="Top" Width="94" Height="38" FontFamily="Times New Roman" FontSize="20" Cursor="Hand" Click="btnNext"/>
+        <Image x:Name="DisplayImage" HorizontalAlignment="Left" Height="400" Margin="54,35,0,0" VerticalAlignment="Top" Width="300"/>
+        <TextBlock x:Name="txtHint" HorizontalAlignment="Left" Margin="403,67,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="99" Width="367" FontFamily="Times New Roman" FontSize="20"/>
+        <TextBlock x:Name="txtQuiz" HorizontalAlignment="Left" Margin="579,20,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="191" Height="32" FontFamily="Times New Roman" FontSize="22"/>
+    </Grid>
+</Window>
